@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+    <TextView android:layout_width="match_parent" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Status Update" android:gravity="center" android:textSize="30sp" android:layout_margin="10dp" android:textColor="@android:color/white"></TextView>
+    <TextView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/textCount" android:text="000" android:layout_marginRight="10dp"/>
+    <EditText android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:hint="Please, enter your 140-character status" android:gravity="center_horizontal|top" android:id="@+id/editText" android:background="#cfff"/>
+    <Button android:text="Update" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/buttonUpdate" android:textSize="20sp"></Button>
+</LinearLayout>
