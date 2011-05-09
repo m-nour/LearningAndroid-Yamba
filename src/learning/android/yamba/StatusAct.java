@@ -1,15 +1,10 @@
 package learning.android.yamba;
 
-import org.apache.http.client.HttpClient;
-
 import android.app.Activity;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;

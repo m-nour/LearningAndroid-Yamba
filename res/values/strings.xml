@@ -8,4 +8,11 @@
     <string name="titlePrefs">Preferences</string>
     <string name="titleServiceStart">Start Service</string>
     <string name="titleServiceStop">Stop Service</string>
+    <string name="titleTimeline">timeline</string>
+    <string name="titleTimelineColor">#fff</string>
+    <string name="textTimelineBackground">#6000</string>
+    <string name="listTimelineBackground">#6000</string>
+    <string name="testUserString">Slashdot</string>
+    <string name="textCreatedAtString">10 minutes ago</string>
+    <string name="textTextString">Firefox 2 Android</string>
 </resources>
